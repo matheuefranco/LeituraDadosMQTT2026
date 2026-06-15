@@ -1,8 +1,8 @@
-const mqtt_server = "56b1021e9fab48e28a4ef8a453d81e18.s1.eu.hivemq.cloud";
+const mqtt_server = "seu-server";
 const mqtt_port = 8884;
-const mqtt_user = "matheusefranco";
-const mqtt_password = "IFMachado2026*";
-const topic = "ifsuldeminas/dht11/temperatura";
+const mqtt_user = "";
+const mqtt_password = "";
+const topic = "seu-topico";
 
 const client = mqtt.connect(`wss://${mqtt_server}:${mqtt_port}/mqtt`, {
     username: mqtt_user,
